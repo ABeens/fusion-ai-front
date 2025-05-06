@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Recorder</h1>
+        <div class="recorder-container">
+            <button id="recordButton" class="record-button">
+                <span class="mic-icon">🎤</span>
+                <span class="button-text">Start Recording</span>
+            </button>
+            <div id="recordingStatus" class="recording-status"></div>
+        </div>
+        <div id="responseContainer" class="response-container">
+            <h2>API Response:</h2>
+            <pre id="apiResponse"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
